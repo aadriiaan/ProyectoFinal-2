@@ -1,69 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explora Más</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explora Más</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="">
 
 </head>
+
 <body>
-  <div class="container mt-4">
-    <div class="row">
+  <div class="container">
+    <h2 class="text-center mb-4">Ver más</h2>
+    <div class="row g-4">
       <div class="col-md-4">
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen Madrid">
+        <div class="card">
+          <img src="" class="card-img-top" alt="Destino">
           <div class="card-body">
-            <h5 class="card-title">Madrid</h5>
-            <p class="card-text">Descubre los encantos de la capital de España.</p>
-            <button class="like-button" onclick="handleLike(this)">
-              👍 <span class="like-count">0</span> Me gusta
-            </button>
+            <h5 class="card-title">París</h5>
+            <p class="card-text">Explora la ciudad del amor, su icónica Torre Eiffel y el museo del louvre.</p>
+            <a href="" class="btn btn-outline-primary">Ver más</a>
           </div>
         </div>
       </div>
-
       <div class="col-md-4">
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen Barcelona">
+        <div class="card">
+          <img src="/images/maldivass.jpg" class="card-img-top" alt="Destino">
           <div class="card-body">
-            <h5 class="card-title">Barcelona</h5>
-            <p class="card-text">Explora la magia de la ciudad condal.</p>
-            <button class="like-button" onclick="handleLike(this)">
-              👍 <span class="like-count">0</span> Me gusta
-            </button>
+            <h5 class="card-title">Maldivas</h5>
+            <p class="card-text">Relájate en playas paradisíacas con aguas cristalinas y realiza actividades sin fin.
+            </p>
+            <a href="#" class="btn btn-outline-primary">Ver más</a>
           </div>
         </div>
       </div>
-
       <div class="col-md-4">
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen Card title">
+        <div class="card">
+          <img src="/images/roma.jpg" class="card-img-top" alt="Destino">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Información de ejemplo para esta tarjeta.</p>
-            <button class="like-button" onclick="handleLike(this)">
-              👍 <span class="like-count">0</span> Me gusta
-            </button>
+            <h5 class="card-title">Roma</h5>
+            <p class="card-text">Vive la experiencia de visitar Roma, el Coliseo Romano y comer mucha pizza.</p>
+            <div style="text-align: center; margin-top: 50px;">
+              <input type="checkbox" id="like" class="like-checkbox">
+              <label for="like" class="like-label">Me gusta</label>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <script>
-    function handleLike(button) {
-      // Recupera el número actual de "Me gusta" del atributo data-likes
-      let currentLikes = parseInt(button.getAttribute('data-likes'));
-      CurrentLikes=0;
-      // Incrementa el contador
-      currentLikes ++;
-
-      // Actualiza el atributo data-likes
-      button.setAttribute('data-likes', currentLikes);
-
-      // Actualiza el contador visible
-      button.querySelector('.like-count').textContent = currentLikes;
-    }
-  </script>
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/paris.jpg" class="card-img-top" alt="Destino">
+              <div class="card-body">
+                <h5 class="card-title">París</h5>
+                <p class="card-text">Explora la ciudad del amor, su icónica Torre Eiffel y el museo del louvre.</p>
+                <a href="" class="btn btn-outline-primary">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/maldivass.jpg" class="card-img-top" alt="Destino">
+              <div class="card-body">
+                <h5 class="card-title">Maldivas</h5>
+                <p class="card-text">Relájate en playas paradisíacas con aguas cristalinas y realiza actividades sin
+                  fin.</p>
+                <a href="#" class="btn btn-outline-primary">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/nueva york.jpg" class="card-img-top" alt="Destino">
+              <div class="card-body">
+                <h5 class="card-title">Nueva York</h5>
+                <p class="card-text">Vive la experiencia de los rascacielos y todos sus monumentos.</p>
+                <a href="#" class="btn btn-outline-primary">Ver más</a>
+              </div>
+            </div>
+          </div>
 </body>
+
 </html>
