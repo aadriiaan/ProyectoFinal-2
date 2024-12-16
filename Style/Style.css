@@ -39,8 +39,8 @@ footer {
 
 .card-container {
     display: flex;
-    flex-wrap: wrap; 
-    gap: 1rem; 
+    flex-wrap: wrap;
+    gap: 1rem;
     justify-content: center;
 }
 
@@ -80,6 +80,6 @@ footer {
     color: #333;
 }
 
-h2{
-    margin-top: 2%;;
+h2 {
+    margin-top: 2%;
 }
