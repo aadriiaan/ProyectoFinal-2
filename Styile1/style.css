@@ -1,0 +1,40 @@
+form {
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: aqua;
+    border-style: solid;
+    border-color: azure;
+    padding: 50px;
+    margin: 0% auto;
+}
+
+label {
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+input {
+    background-color: white;
+    text-align: center;
+}
+
+button {
+    background-color: whitesmoke;
+}
+
+textarea {
+    width: 200px;
+    height: 35px;
+    background-color: white;
+}
+
+.file {
+    background-color: aqua;
+}
