@@ -1,0 +1,15 @@
+.product-card {
+    transition: transform 0.3s ease-in-out;
+}
+.product-card:hover {
+    transform: scale(1.05);
+}
+.price {
+    font-weight: bold;
+    color: #28a745;
+}
+footer {
+    background-color: black;
+    color: black;
+    padding: 15px 0;
+}

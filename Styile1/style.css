@@ -3,9 +3,9 @@ form {
     height: 400px;
     text-align: center;
     border-radius: 20px;
-    background-color: aqua;
+    background-color: whitesmoke;
     border-style: solid;
-    border-color: azure;
+    border-color: burlywood ;
     padding: 50px;
     margin: 0% auto;
 }
@@ -16,8 +16,10 @@ label {
 }
 
 body {
-    background-color: aquamarine;
+    background-color: whitesmoke;
     text-align: center;
+    background-image: url(/images/viajes.png);
+
 }
 
 input {
@@ -36,5 +38,5 @@ textarea {
 }
 
 .file {
-    background-color: aqua;
+    background-color: bisque;
 }
