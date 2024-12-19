@@ -10,6 +10,11 @@
 }
 footer {
     background-color: black;
-    color: black;
+    color: white;
     padding: 15px 0;
+    opacity: 67%;
+}
+
+body{
+    background-image: url(/images/fondomadrid.jpg);
 }
